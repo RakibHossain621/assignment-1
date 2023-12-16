@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* TODO:Global Css Start */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+/* TODO:Global Css End */
+
+:root {
+  /* Google Font */
+  --primary-font: "Montserrat", serif;
+  /* Theme Color */
+  --primary-color: #f05026;
+  --black-color: #111111;
+  --black-color-secondary: #585451;
+  --gray-color: #f5f6f6;
+  --secondary-color: #fc4c1b;
+  --secondary-color-opacity: #FFDFD6;
+  --secondary-dark-color: #292624;
+  --footer-color: #b4b6bb;
+  --white-color: #ffffff;
+  --white-secondary-color: #F0F0F0;
+  --bg-dark-primary: #484340;
+  --nav-sidebar-primary: #282624;
+  --red-color: #eb001b;
+  --text-color: #16171c;
+  --text-secondary-color: #363a45;
+  --white-gray: #dbdbdb;
+  --box-background:#302d2b;
+  --dark-button-bg:#8D9FA7;
+  --primary-transition: all 0.3s ease-in-out;
+  /* Font Size */
+  --primary-font-size: 3em;
+  --primary-font-mobile-size: 1.8em;
+  --sm-device:640px;
+  --md-device:768px;
+  --lg-device:1024px;
+  --xl-device:1280px;
+  --2xl-device:1536px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+p,
+span,
+label,
+input,
+textarea,
+select,
+a {
+  font-family: var(--primary-font);
+}
+
+body {
+  background-color: var(--white-secondary-color);
+  overflow-x: hidden;
+  width: 100%;
+  color: var(--bg-dark-primary);
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: var(--primary-transition);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* TODO: Global Css Start */
+.container {
+  max-width: 82.5em;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.sec_padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Button Utils */
+.app_button {
+  height: 60px;
+  padding: 19px 16px;
+  border-radius: 5px;
+  background: var(--primary-color);
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}

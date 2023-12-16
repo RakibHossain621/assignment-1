@@ -1,0 +1,29 @@
+.header{
+    position: relative;
+    z-index: 99;
+    background-color: var(--black-color);
+}
+.logo{
+    width: 105px;
+    height: 34px;
+}
+.nav_links a{
+    color: var(--white-color);
+    font-size: 17px;
+    line-height: 27.2px;
+}
+.nav_links a:hover{
+    color: bisque;
+}
+a.active{
+border-bottom: 2px solid white;
+}
+.app_btn{
+    font-size: 1em;
+    border: none;
+    outline: 2px solid var(--white-color);
+    padding: 10px 17px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: var(--white-color);
+    }

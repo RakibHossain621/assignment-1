@@ -1,0 +1,9 @@
+.about{
+    background-color: var(--black-color);
+}
+.about_left{
+    width: 45%;
+}
+.about_right{
+    flex: 1;
+}

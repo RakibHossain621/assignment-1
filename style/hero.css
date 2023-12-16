@@ -1,0 +1,31 @@
+.hero-banner{
+    background-image: url('https://resonance.bestlooker.pro/images/full-width-images/section-bg-13.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.hero_head_area h4{
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120px;
+
+}
+.hero_head_area h1{
+    font-size: 100px;
+    color: var(--white-color);
+    font-weight: 500;
+    line-height: 120px;
+
+}
+.hero-banner .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    text-align: center;
+}
