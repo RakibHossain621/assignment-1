@@ -1,0 +1,43 @@
+.starnger{
+    background-color: var(--black-color);
+}
+.stranger_left{
+    width: 66%;
+    overflow: hidden;
+}
+.stranger_right{
+    width: 34%;
+}
+.stranger_left img{
+    object-fit: cover;
+    object-position: top;
+    transition:var(--primary-transition);
+}
+.stranger_left img:hover{
+    transform: scale(1.02) translateZ(0.1px);
+}
+.stranger_right h1{
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 52px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    border-top: 2px solid var(--white-color);
+    padding-top: 0.5em;
+}
+.stranger_right p{
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--white-color);
+    margin-bottom: 2em;
+}
+.stranger_right span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1.8px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--white-color);
+    padding-bottom: 0.5em;
+}

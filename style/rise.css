@@ -1,0 +1,44 @@
+.Rise{
+    background-color: var(--black-color);
+}
+.rise_left{
+    width: 34%;
+}
+.rise_right{
+    width: 66%;
+    overflow: hidden;
+}
+
+.rise_left h1{
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 52px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    border-top: 2px solid var(--white-color);
+    padding-top: 0.5em;
+}
+.rise_left p{
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--white-color);
+    margin-bottom: 2em;
+}
+.rise_left span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1.8px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--white-color);
+    padding-bottom: 0.5em;
+}
+.rise_right img{
+    object-fit: cover;
+    object-position: top;
+    transition:var(--primary-transition);
+}
+.rise_right img:hover{
+    transform: scale(1.02) translateZ(0.1px);
+}

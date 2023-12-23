@@ -1,0 +1,28 @@
+.reserach{
+    background-color: var(--black-color);
+    border-bottom: 1px solid #343434;
+}
+.single_number h3{
+    font-size: 23px;
+    font-weight: 500;
+    color: var(--black-color);
+    background-color: var(--white-color);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single_number span{
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--white-color);
+    line-height: 37px;
+}
+.resherch_title p{
+    font-size: 19px;
+    line-height: 30px;
+    color: var(--white-color);
+    margin-top: 1em;
+}

@@ -1,7 +1,10 @@
 .header{
     position: relative;
-    z-index: 99;
     background-color: var(--black-color);
+    position: fixed;
+     width: 100%;
+    top: 0;
+   z-index: 1000;
 }
 .logo{
     width: 105px;
@@ -17,6 +20,7 @@
 }
 a.active{
 border-bottom: 2px solid white;
+padding: 0.3em;
 }
 .app_btn{
     font-size: 1em;
@@ -27,3 +31,5 @@ border-bottom: 2px solid white;
     background-color: transparent;
     color: var(--white-color);
     }
+
+    

@@ -7,3 +7,29 @@
 .about_right{
     flex: 1;
 }
+.about_left img{
+    width: 500px;
+    object-fit: cover;
+    object-position: top;
+}
+.about_right h1{
+    font-size: 80px ;
+    font-weight: 500 ;
+    line-height: 96px ;
+    color: var(--white-color);
+}
+.about_right p{
+    font-size: 1.8em ;
+    line-height: 40px;
+    color: var(--white-color);
+
+}
+.about_text span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    border-bottom: 2px solid var(--white-color);
+    padding: 0.2em;
+}

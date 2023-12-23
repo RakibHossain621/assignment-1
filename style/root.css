@@ -103,3 +103,9 @@ img {
   line-height: normal;
   cursor: pointer;
 }
+.border_top{
+  border-top: 2px solid var(--white-color);
+}
+.border_btm{
+  border-bottom: 2px solid var(--white-color);
+}

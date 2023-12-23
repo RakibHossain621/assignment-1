@@ -1,0 +1,43 @@
+.services{
+    border-bottom: 1px solid #343434;
+}
+.services{
+    background-color: var(--black-color);
+}
+.serivces_left{
+    width: 45%;
+}
+.serivces_right{
+    flex: 1;
+}
+.serivces_left h1{
+    font-size: 80px;
+    font-weight: 500;
+    color: var(--white-color);
+    line-height: 96px;
+}
+.serivces_left p{
+    font-size: 24px;
+    line-height: 40px;
+    color: var(--white-color);
+}
+.serivces_left span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1.8px;
+    color: var(--white-color);
+    border-bottom: 2px solid var(--white-color);
+    padding: 0.2em;
+}
+.services_single span{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+.services_single i{
+    font-size: 31px;
+    color: var(--white-color);
+}
