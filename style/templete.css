@@ -1,7 +1,9 @@
 .templete{
     background-color: var(--black-color);
 }
-
+.templete .container{
+    border-bottom: 1px solid #343434;
+}
 .testimonial_say {
     font-size: 2.5em;
     color: var(--white-color);
@@ -26,9 +28,20 @@
     font-size: 1em;
     color: var(--white-color);
     font-weight: 600;
+    text-transform: uppercase;
 }
 .templete_circle_title h3{
     font-size: 0.8em;
     color: #ffffffb3;
     font-weight: 600;
+}
+.left_arrow i{
+    font-size: 32px;
+     line-height: 54px;
+     color: var(--white-color);
+}
+.right_arrow i{
+    font-size: 32px;
+     line-height: 54px;
+     color: var(--white-color);
 }

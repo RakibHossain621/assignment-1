@@ -1,0 +1,11 @@
+.news{
+    background-color: var(--black-color);
+}
+.single_news img{
+    object-fit: cover;
+    object-position: top;
+    transition:var(--primary-transition);
+}
+.single_news img:hover{
+    transform: scale(1.02) translateZ(0.1px);
+}
