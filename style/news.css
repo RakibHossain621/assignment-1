@@ -1,7 +1,4 @@
-.news{
-    background-color: var(--black-color);
-    height: 900px;
-}
+
 .single_news {
     width: 30%;
 }
@@ -10,18 +7,18 @@
     object-position: top;
     transition:var(--primary-transition);
     width: 350px;
-    height: 100%;
+    height: 300px;
 }
 .single_news img:hover{
     transform: scale(1.02) translateZ(0.1px);
 }
 
 .single_news.news1 {
-    transform: translateY(10em);
+    margin-top: 10em;
 }
 
 .single_news.news2 {
-    transform: translateY(5em);
+    margin-top: 5em;
 }
 .news-heading h1{
     font-size: 80px;

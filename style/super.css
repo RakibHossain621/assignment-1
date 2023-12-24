@@ -1,6 +1,4 @@
-.super{
-    background-color: var(--black-color);
-}
+
 .super .container{
     border-bottom: 1px solid #343434;
 }

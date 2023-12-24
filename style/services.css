@@ -1,9 +1,6 @@
 .services{
     border-bottom: 1px solid #343434;
 }
-.services{
-    background-color: var(--black-color);
-}
 .serivces_left{
     width: 45%;
 }

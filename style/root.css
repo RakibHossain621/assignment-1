@@ -61,7 +61,7 @@ a {
 }
 
 body {
-  background-color: var(--white-secondary-color);
+  background-color:  var(--black-color);
   overflow-x: hidden;
   width: 100%;
   color: var(--bg-dark-primary);
