@@ -24,4 +24,47 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: var(--white-color);
+}
+.contact_left h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 96px;
+    color: var(--white-color);
+}
+.contact_left p{
+    font-size: 24px;
+    line-height: 40px;
+    color: var(--white-color);
+    max-width: 520px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.contact_left h2,h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin-top: 1em;
+
+
+}
+.contact_right{
+    flex: 1;
+}
+.input_box_message label{
+    font-size: 1.4em;
+    color: var(--white-color);
+    font-weight: 700;
+    display: block;
+}
+.input_box_message textarea{
+    border: none;
+    border-bottom: 2px solid var(--white-color);
+    outline: none;
+    background-color: transparent;
+    padding: 10px 0px;
+    width: 100%;
 }
