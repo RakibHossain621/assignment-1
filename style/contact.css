@@ -17,7 +17,12 @@
     outline: none;
     background-color: transparent;
     padding: 10px 0px;
+    color: var(--white-color);
 }
+
+.input_box input[type="text"] {
+    text-align: center;
+  }
 
 .input_box input::placeholder{
     display: flex;
@@ -67,4 +72,9 @@
     background-color: transparent;
     padding: 10px 0px;
     width: 100%;
+    color: var(--white-color);
+}
+
+.input_box_message textarea::placeholder{
+    color: var(--white-color);
 }
