@@ -23,6 +23,9 @@
 .input_box input[type="text"] {
     text-align: center;
   }
+.input_box input[type="email"] {
+    text-align: center;
+  }
 
 .input_box input::placeholder{
     display: flex;
@@ -98,7 +101,6 @@
     border-radius: 50%;
 }
 .trip i{
-    font-size: 16px;
    color: var(--white-color);
 }
 .trip p{
@@ -107,4 +109,18 @@
     color: var(--white-color);
     width: 341px;
     height: 102px;
+}
+
+.circle_ex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #ffffffb3;
+}
+
+.circle_ex i{
+    font-size: 0.6em;
 }

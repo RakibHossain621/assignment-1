@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="style/news.css">
     <link rel="stylesheet" href="style/contact.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/theme.css">
     <title>Reso LInk</title>
 </head>
 
@@ -370,25 +371,31 @@
                         <h3>+1 837 652 8800</h3>
                     </div>
                     <!-- TODO: Fix capitalize issue and make it uppercase make button and terms and services link. make it like this : https://prnt.sc/kvmi6jfu8h-5 -->
-                    <form class="contact_right">
+                    <form 
+                    action="https://formspree.io/f/xdoqnveq"
+                    method="POST"
+                    class="contact_right"
+                    >
                         <div class="input_box">
-                            <label for="firstName">Your Name</label>
-                            <input type="text" placeholder="Your Enter Name">
+                            <label for="your_name">YOUR NAME</label>
+                            <input type="text" id="your_name" name="your_name" placeholder="Your Enter Name">
                         </div>
                         <!-- ------- -->
                         <div class="input_box">
-                            <label class="mt-4" for="firstName">Email Address</label>
-                            <input class="mt-5" type="text" placeholder="Enter Your Email here">
+                            <label class="mt-4" for="email">EMAIL ADDRESS</label>
+                            <input class="mt-5" id="email" type="email" name="email" placeholder="Enter Your Email here">
                         </div>
                         <!-- ------ -->
                         <div class="input_box_message">
-                            <label class="mt-4" for="firstName">What’s your question?</label>
-                            <textarea name="" id="" placeholder="Enter Your Message here" cols="30" rows="10"></textarea>
+                            <label class="mt-4" for="message">WHAT’S YOUR QUESTION?</label>
+                            <textarea  id="message"  name="message" placeholder="Enter Your Message here" cols="30" rows="10"></textarea>
                         </div>
                         <div class="contact_circle d-flex gap-5 align-center mt-5">
-                            <button>Send Message</button>
+                            <button type="submit">Send Message</button>
                             <div class="trip d-flex gap-2">
+                               <div class="circle_ex">
                                 <i class="fa-solid fa-exclamation"></i>
+                               </div>
                                 <p>All the fields are required. By sending the form you agree to the Terms & Conditions and Privacy Policy.</p>
                             </div>
                         </div> 
@@ -424,6 +431,16 @@
                  </div>
                </div>
              </footer>
+
+
+
+              <!-- Gear Section -->
+
+    <div class="gear-tab" id="modeIcon">
+        
+      </div>
+
+      <script src="./js/app.js"></script>
 
 </body>
 

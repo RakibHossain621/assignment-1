@@ -1,0 +1,42 @@
+.dark-mode {
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.gear-tab {
+  position: fixed;
+  bottom: 10.5%;
+  right: -0px;
+  width: 57.5px;
+  height: 57.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #484340;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-right-width: 0;
+  z-index: 1000;
+  cursor: pointer;
+  background-color: var(--primary-color);
+}
+
+.gear-tab i {
+  font-size: 35px;
+  color: var(--white-color);
+  animation: spin 2s linear infinite;
+}
+
+.gear-tab.active {
+  right: 260px;
+  transition: all 0.1s ease-in-out;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
