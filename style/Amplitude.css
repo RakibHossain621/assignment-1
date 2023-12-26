@@ -13,6 +13,7 @@
     text-transform: uppercase;
     border-top: 2px solid var(--white-color);
     padding-top: 0.5em;
+    cursor: pointer;
 }
 .ampulitude_left p{
     font-size: 18px;
@@ -29,6 +30,7 @@
     text-transform: uppercase;
     border-bottom: 2px solid var(--white-color);
     padding-bottom: 0.5em;
+    cursor: pointer;
 }
 .ampulitude_right img{
     object-fit: cover;

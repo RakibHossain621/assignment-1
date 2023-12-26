@@ -39,7 +39,7 @@
 <body>
     <!-- header section start TODO:-->
     <header class="header">
-        <div class="container">
+        <div class="Header_container">
             <!-- TODO: Fix Header Container Issue -->
             <!-- TODO: Fix Background -->
             <!-- TODO: Fix Header Button Design -->
@@ -56,7 +56,8 @@
                     <li class="nav_links"><a href="#">Contact</a></li>
                 </ul>
                 <div class="button">
-                    <button class="app_btn">Let's Talk</button>
+                    <button class="app_btn">Let's Talk  <i class="fa-solid fa-arrow-right"></i></button>
+                   
                 </div>
             </div>
         </div>
@@ -69,7 +70,19 @@
             <div class="hero_head_area">
                 <h4>I’M RONALD SMITH</h4>
                 <h1>Visual & Web Designer Based in Melburn</h1>
+                <div class="circle_hero d-flex justify-center align-center mt-4">
+                    <button>DISCOVER PROJECT</button>
+                </div>
+                <div class="wrapper-promotd d-flex justify-between align-center">
+                    <div class="hero_promoted_left">
+                        <h1>Currently UI/UX <br> Designer at Envato</h1>
+                    </div>
+                    <div class="hero_promoted_right">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                </div>
             </div>
+            
             <!-- TODO:Make Footer View In Hero Section: EXample url: https://prnt.sc/4lTYkdkkWxnp -->
         </div>
     </section>
@@ -99,7 +112,7 @@
     <!-- about section end TODO: -->
     <!-- services section start  TODO:-->
     <section class="services sec_padding">
-        <!-- TODO: Fix FAQ Gap. Main goal to make it middle alignment -->
+        <!-- TODO: Fix FAQ Gap. Main goal to make it middle alignment done -->
         <div class="container">
             <div class="services_wrapper d-flex gap-6">
                 <div class="serivces_left">
@@ -109,27 +122,27 @@
                 </div>
                 <div class="serivces_right">
                     <div class="services_single d-flex justify-between align-center p-3 border_top">
-                        <span class="mt-3">BRAND STRATEGY</span>
+                        <span class="mt-1">BRAND STRATEGY</span>
                         <i class="fa-solid fa-plus"></i>
 
                     </div>
                     <div class="services_single d-flex justify-between align-center p-3  border_top">
-                        <span class="mt-3">WEB DESIGN</span>
+                        <span class="mt-1">WEB DESIGN</span>
                         <i class="fa-solid fa-plus"></i>
 
                     </div>
                     <div class="services_single d-flex justify-between align-center p-3  border_top">
-                        <span class="mt-3">ART DIRECTION</span>
+                        <span class="mt-1">ART DIRECTION</span>
                         <i class="fa-solid fa-plus"></i>
 
                     </div>
                     <div class="services_single d-flex justify-between align-center p-3 border_top">
-                        <span class="mt-3">WEB DEVELOPMENT</span>
+                        <span class="mt-1">WEB DEVELOPMENT</span>
                         <i class="fa-solid fa-plus"></i>
 
                     </div>
                     <div class="services_single d-flex justify-between align-center p-3 border_btm border_top ">
-                        <span class=" mt-2">MARKETING</span>
+                        <span class=" mt-1">MARKETING</span>
                         <i class="fa-solid fa-plus"></i>
 
                     </div>
@@ -192,7 +205,7 @@
                 <div class="wrok_left">
                     <h1>Works</h1>
                 </div>
-                <div class="work_right d-flex gap-6">
+                <div class="work_right d-flex gap-5">
         <!-- TODO: Fix Button Gap Issue and design issue in active button -->
                     
                         <button class="work_btn_active" >All works</button>
@@ -357,23 +370,34 @@
                         <h3>+1 837 652 8800</h3>
                     </div>
                     <!-- TODO: Fix capitalize issue and make it uppercase make button and terms and services link. make it like this : https://prnt.sc/kvmi6jfu8h-5 -->
-                    <div class="contact_right">
+                    <form class="contact_right">
                         <div class="input_box">
-                            <label for="firstName">Your name</label>
+                            <label for="firstName">Your Name</label>
                             <input type="text" placeholder="Your Enter Name">
                         </div>
                         <!-- ------- -->
                         <div class="input_box">
-                            <label class="mt-4" for="firstName">EMAIL ADDRESS</label>
+                            <label class="mt-4" for="firstName">Email Address</label>
                             <input class="mt-5" type="text" placeholder="Enter Your Email here">
                         </div>
                         <!-- ------ -->
                         <div class="input_box_message">
-                            <label class="mt-4" for="firstName">WHAT’S YOUR QUESTION?</label>
+                            <label class="mt-4" for="firstName">What’s your question?</label>
                             <textarea name="" id="" placeholder="Enter Your Message here" cols="30" rows="10"></textarea>
                         </div>
-                    </div>
+                        <div class="contact_circle d-flex gap-5 align-center mt-5">
+                            <button>Send Message</button>
+                            <div class="trip d-flex gap-2">
+                                <i class="fa-solid fa-exclamation"></i>
+                                <p>All the fields are required. By sending the form you agree to the Terms & Conditions and Privacy Policy.</p>
+                            </div>
+                        </div> 
+                    </form>
+                    
                 </div>
+                <!-- ----- -->
+                    
+              
             </div>
            </section>
              <!-- contact section start end TODO: -->

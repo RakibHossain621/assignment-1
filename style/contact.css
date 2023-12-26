@@ -46,8 +46,8 @@
     margin-top: 2em;
 }
 
-/* TODO:Fix ALignment issue */
-.contact_left h2,h3{
+/* TODO:Fix ALignment issue Done*/
+.contact_left h2{
     font-size: 18px;
     font-weight: 500;
     line-height: 18px;
@@ -55,8 +55,15 @@
     text-transform: uppercase;
     color: var(--white-color);
     margin-top: 1em;
-
-
+}
+.contact_left h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin-top: 1em;
 }
 .contact_right{
     flex: 1;
@@ -72,11 +79,32 @@
     border-bottom: 2px solid var(--white-color);
     outline: none;
     background-color: transparent;
-    padding: 10px 0px;
+    padding: 28px 0px;
     width: 100%;
     color: var(--white-color);
 }
 
 .input_box_message textarea::placeholder{
     color: var(--white-color);
+}
+.contact_circle button{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: black;
+    background-color: var(--white-color);
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+.trip i{
+    font-size: 16px;
+   color: var(--white-color);
+}
+.trip p{
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white-color);
+    width: 341px;
+    height: 102px;
 }

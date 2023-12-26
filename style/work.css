@@ -22,6 +22,7 @@
   background-color: var(--black-color);
   border: none;
   outline: none;
+  cursor: pointer;
 }
 .work_btn_active {
   background: var(--white-color);
@@ -30,7 +31,7 @@
   width: 146px;
   padding: 4px 13px 4px 13px;
   margin: 29px 0 0 35px;
-  border-radius: 10px;
+  border-radius: 75px;
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
@@ -58,6 +59,7 @@
   text-transform: uppercase;
   border-top: 2px solid var(--white-color);
   padding-top: 0.5em;
+  cursor: pointer;
 }
 .medium_right p {
   font-size: 18px;
@@ -74,4 +76,5 @@
   text-transform: uppercase;
   border-bottom: 2px solid var(--white-color);
   padding-bottom: 0.5em;
+  cursor: pointer;
 }

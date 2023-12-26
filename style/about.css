@@ -30,4 +30,5 @@
     color: var(--white-color);
     border-bottom: 2px solid var(--white-color);
     padding: 0.2em;
+    cursor: pointer;
 }

@@ -41,6 +41,7 @@
     color: var(--white-color);
     border-bottom: 2px solid var(--white-color);
     padding-bottom: 0.5em;
+    cursor: pointer;
 }
 .single_news a{
     font-size: 25px;

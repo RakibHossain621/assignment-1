@@ -12,6 +12,7 @@
     font-weight: 500;
     line-height: 18px;
     color: var(--white-color);
+    cursor: pointer;
 }
 .footer_right_list span{
     font-size: 18px;
@@ -22,14 +23,15 @@
 .footer_right_list i{
     font-size: 22px;
     line-height: 22px;
-    background-color: var(--white-color);
-    color: var(--black-color);
+    background-color: transparent;
+    color: var(--white-color);
     width: 38px;
     height: 35px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid var(--white-color);
 
 }
 .footer_text{

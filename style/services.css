@@ -27,6 +27,7 @@
     color: var(--white-color);
     border-bottom: 2px solid var(--white-color);
     padding: 0.2em;
+    cursor: pointer;
 }
 .services_single span{
     font-size: 32px;
@@ -34,8 +35,10 @@
     line-height: 44px;
     text-transform: uppercase;
     color: var(--white-color);
+    cursor: pointer;
 }
 .services_single i{
     font-size: 31px;
     color: var(--white-color);
+    cursor: pointer;
 }

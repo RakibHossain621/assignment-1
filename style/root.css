@@ -80,6 +80,11 @@ img {
 }
 
 /* TODO: Global Css Start */
+.Header_container{
+  max-width: 85.5em;
+  margin: 0 auto;
+  padding: 1em;
+}
 .container {
   max-width: 82.5em;
   margin: 0 auto;
