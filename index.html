@@ -33,13 +33,14 @@
     <link rel="stylesheet" href="style/contact.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/theme.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Reso LInk</title>
 </head>
 
 <!-- TODO: Extra work make it scroll animation with smooth transition -->
 <body>
     <!-- header section start TODO:-->
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="Header_container">
             <!-- TODO: Fix Header Container Issue -->
             <!-- TODO: Fix Background -->
@@ -56,10 +57,12 @@
                     <li class="nav_links"><a href="#">Blog</a></li>
                     <li class="nav_links"><a href="#">Contact</a></li>
                 </ul>
-                <div class="button">
-                    <button class="app_btn">Let's Talk  <i class="fa-solid fa-arrow-right"></i></button>
-                   
-                </div>
+                    <a class="btn-epic" href="#">
+                        <div>
+                            <span>Let's Talk  <i class="fa-solid fa-arrow-right"></i></span>
+                            <span>Let's Talk  <i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </a>
             </div>
         </div>
 
@@ -69,8 +72,9 @@
     <section class="hero-banner">
         <div class="container">
             <div class="hero_head_area">
-                <h4>I’M RONALD SMITH</h4>
-                <h1>Visual & Web Designer Based in Melburn</h1>
+                <h4 data-aos="fade-up">I’M RONALD SMITH</h4>
+                <h1 data-aos="fade-right">Visual & Web Designer</h1>
+                <h1 data-aos="fade-up">Based in Melburn</h1>
                 <div class="circle_hero d-flex justify-center align-center mt-4">
                     <button>DISCOVER PROJECT</button>
                 </div>
@@ -206,9 +210,8 @@
                 <div class="wrok_left">
                     <h1>Works</h1>
                 </div>
-                <div class="work_right d-flex gap-5">
+                <div class="work_right">
         <!-- TODO: Fix Button Gap Issue and design issue in active button -->
-                    
                         <button class="work_btn_active" >All works</button>
                         <button class="work_btn">Branding</button>
                         <button class="work_btn">Design</button>
@@ -441,6 +444,15 @@
       </div>
 
       <script src="./js/app.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init({
+          duration: 800,
+          easing: 'ease-in-out',
+          once: true,
+          mirror: false
+        });
+      </script>
 
 </body>
 

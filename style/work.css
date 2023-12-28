@@ -19,9 +19,28 @@
   font-family: var(--secondary-font);
 }
 .work_right .work_btn {
-  font-size: 18px;
+  font-size: 1.1em;
   font-weight: 500;
-  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: var(--secondary-font);
+  padding: 8px 30px;
+  border-radius: 20px;
+  color: var(--black-color);
+}
+
+.dark-mode .work_right .work_btn {
+  color:  var(--white-color);
+}
+
+
+.work_btn_active {
+  font-size: 1.1em;
+  font-weight: 500;
   text-transform: uppercase;
   color: var(--white-color);
   background-color: var(--black-color);
@@ -29,19 +48,12 @@
   outline: none;
   cursor: pointer;
   font-family: var(--secondary-font);
+  padding: 8px 30px;
+  border-radius: 20px;
 }
-.work_btn_active {
-  background: var(--white-color);
+.dark-mode .work_btn_active{
+  background-color: var(--white-color);
   color: var(--black-color);
-  height: 38px;
-  width: 146px;
-  padding: 4px 13px 4px 13px;
-  margin: 29px 0 0 35px;
-  border-radius: 75px;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 30px;
-  font-family: var(--secondary-font);
 }
 .medium_left {
   overflow: hidden;
@@ -89,7 +101,7 @@
   line-height: 18px;
   letter-spacing: 1.8px;
   text-transform: uppercase;
-  border-bottom: 2px solid var(--white-color);
+  border-bottom: 2px solid var(--black-color);
   padding-bottom: 0.5em;
   cursor: pointer;
   font-family: var(--secondary-font);
@@ -97,5 +109,5 @@
 
 .dark-mode .medium_right span{
   color: var(--white-color);
-  border-bottom: 2px solid var(--black-color);
+  border-bottom: 2px solid var(--white-color);
 }
