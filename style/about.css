@@ -14,21 +14,31 @@
     font-size: 80px ;
     font-weight: 500 ;
     line-height: 96px ;
+    font-family: var(--secondary-font);
+}
+.dark-mode .about_right h1{
     color: var(--white-color);
 }
 .about_right p{
     font-size: 1.8em ;
     line-height: 40px;
-    color: var(--white-color);
+    font-family: var(--primary-font);
 
+}
+.dark-mode .about_right{
+    color: var(--white-color);
 }
 .about_text span{
     font-size: 18px;
     font-weight: 500;
     line-height: 18px;
     text-transform: uppercase;
-    color: var(--white-color);
-    border-bottom: 2px solid var(--white-color);
+    border-bottom: 2px solid var(--black-color);
     padding: 0.2em;
     cursor: pointer;
+    font-family: var(--secondary-font);
+}
+.dark-mode .about_text span{
+    color: var(--white-color);
+    border-bottom: 2px solid var(--white-color);
 }

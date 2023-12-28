@@ -3,6 +3,10 @@
   font-weight: 500;
   line-height: 96px;
   letter-spacing: 1px;
+
+  font-family: var(--secondary-font);
+}
+.dark-mode .wrok_left h1{
   color: var(--white-color);
 }
 .single_work h1 {
@@ -12,6 +16,7 @@
   letter-spacing: 1.44px;
   text-transform: uppercase;
   color: var(--white-color);
+  font-family: var(--secondary-font);
 }
 .work_right .work_btn {
   font-size: 18px;
@@ -23,6 +28,7 @@
   border: none;
   outline: none;
   cursor: pointer;
+  font-family: var(--secondary-font);
 }
 .work_btn_active {
   background: var(--white-color);
@@ -35,6 +41,7 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
+  font-family: var(--secondary-font);
 }
 .medium_left {
   overflow: hidden;
@@ -55,26 +62,40 @@
   font-size: 43px;
   font-weight: 500;
   line-height: 52px;
-  color: var(--white-color);
   text-transform: uppercase;
-  border-top: 2px solid var(--white-color);
+  border-top: 2px solid var(--black-color);
   padding-top: 0.5em;
   cursor: pointer;
+  font-family: var(--secondary-font);
 }
+/* .dark-mode .ium_right h1{
+  color: var(--white-color);
+  border-top: 2px solid var(--white-color);
+} */
 .medium_right p {
   font-size: 18px;
   line-height: 30px;
-  color: var(--white-color);
   margin-bottom: 2em;
+  font-family: var(--primary-font);
+  margin-top: 1em;
 }
-.medium_right span {
+.dark-mode .medium_right p{
+  color: var(--white-color);
+}
+
+.medium_right span{
   font-size: 18px;
   font-weight: 500;
   line-height: 18px;
   letter-spacing: 1.8px;
-  color: var(--white-color);
   text-transform: uppercase;
   border-bottom: 2px solid var(--white-color);
   padding-bottom: 0.5em;
   cursor: pointer;
+  font-family: var(--secondary-font);
+}
+
+.dark-mode .medium_right span{
+  color: var(--white-color);
+  border-bottom: 2px solid var(--black-color);
 }

@@ -108,8 +108,14 @@ img {
   cursor: pointer;
 }
 .border_top{
+  border-top: 2px solid var(--black-color);
+}
+.dark-mode .border_top{
   border-top: 2px solid var(--white-color);
 }
 .border_btm{
+  border-bottom: 2px solid var(--black-color);
+}
+.dark-mode .border_btm{
   border-bottom: 2px solid var(--white-color);
 }

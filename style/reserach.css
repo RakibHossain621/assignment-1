@@ -12,16 +12,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: var(--secondary-font);
 }
 .single_number span{
     font-size: 28px;
     font-weight: 500;
-    color: var(--white-color);
     line-height: 37px;
+    font-family: var(--secondary-font);
+}
+.dark-mode .single_number span{
+    color: var(--white-color);
 }
 .resherch_title p{
     font-size: 19px;
     line-height: 30px;
-    color: var(--white-color);
     margin-top: 1em;
+    font-family: var(--primary-font);
+}
+.dark-mode .resherch_title p{
+    color: var(--white-color);
 }

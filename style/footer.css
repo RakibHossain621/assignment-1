@@ -6,6 +6,7 @@
     font-weight: 500;
     line-height: 30px;
     color: var(--white-color);
+    font-family: var(--secondary-font);
 }
 .footer_middle_list span{
     font-size: 18px;
@@ -13,12 +14,14 @@
     line-height: 18px;
     color: var(--white-color);
     cursor: pointer;
+    font-family: var(--secondary-font);
 }
 .footer_right_list span{
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
     color: var(--white-color);
+    font-family: var(--secondary-font);
 }
 .footer_right_list i{
     font-size: 22px;
@@ -41,4 +44,5 @@
     font-size: 13px;
     color: #999999;
     max-width: 337px;
+    font-family: var(--primary-font);
 }

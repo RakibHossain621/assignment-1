@@ -4,10 +4,12 @@
   width: 100%;
   top: 0;
   z-index: 1000;
+  font-family: var(--primary-font);
 }
 .logo {
   width: 105px;
   height: 34px;
+  cursor: pointer;
 }
 .nav_links a {
   color: var(--white-color);
@@ -31,6 +33,7 @@ a.active {
   color: var(--white-color);
   width: 124px;
   height: 38px;
+  font-family: var(--primary-font);
 }
 .button i{
   font-size: 16px;

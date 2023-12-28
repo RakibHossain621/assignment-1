@@ -11,12 +11,19 @@
 .serivces_left h1{
     font-size: 80px;
     font-weight: 500;
-    color: var(--white-color);
     line-height: 96px;
+    font-family: var(--secondary-font);
+}
+.dark-mode .serivces_left h1{
+    color: var(--white-color);
 }
 .serivces_left p{
     font-size: 24px;
     line-height: 40px;
+    font-family: var(--primary-font);
+    max-width: 454px;
+}
+.dark-mode .serivces_left{
     color: var(--white-color);
 }
 .serivces_left span{
@@ -24,21 +31,31 @@
     font-weight: 500;
     line-height: 18px;
     letter-spacing: 1.8px;
-    color: var(--white-color);
-    border-bottom: 2px solid var(--white-color);
+    border-bottom: 2px solid var(--black-color);
     padding: 0.2em;
     cursor: pointer;
+    font-family: var(--secondary-font);
+}
+.dark-mode .serivces_left span{
+    color: var(--white-color);
+    border-bottom: 2px solid var(--white-color);
 }
 .services_single span{
     font-size: 32px;
     font-weight: 500;
     line-height: 44px;
     text-transform: uppercase;
-    color: var(--white-color);
     cursor: pointer;
+    font-family: var(--secondary-font);
+}
+.dark-mode .services_single span{
+    color: var(--white-color);
 }
 .services_single i{
     font-size: 31px;
-    color: var(--white-color);
+    
     cursor: pointer;
+}
+.dark-mode .services_single i{
+    color: var(--white-color);
 }
