@@ -61,7 +61,6 @@
 .dark-mode .contact_left p{
     color: var(--white-color);
 }
-/* TODO:Fix ALignment issue Done*/
 .contact_left h2{
     font-size: 18px;
     font-weight: 500;
@@ -109,9 +108,7 @@
 .dark-mode .input_box_message textarea{
     border-bottom: 2px solid var(--white-color);
 }
-.input_box_message textarea::placeholder{
-    
-}
+
 .dark-mode .input_box_message textarea::placeholder{
     color: var(--white-color);
 }
@@ -125,15 +122,25 @@
     height: 170px;
     border-radius: 50%;
     font-family: var(--secondary-font);
+    transform: rotate(-30deg);
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
-.dark-mode .contact_circle{
+
+.dark-mode .contact_circle button{
     background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+.dark-mode .contact_circle{
+    background-color: transparent;
     color: var(--black-color);
 }
 .trip i{
    color: var(--black-color);
 }
-.dark-mode.trip i{
+.dark-mode .trip i{
     color: var(--white-color);
 }
 .trip p{
