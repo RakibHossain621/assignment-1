@@ -56,3 +56,15 @@
     color: var(--white-color);
     border-bottom: 2px solid var(--white-color);
 }
+
+@media (max-width:550px){
+    .super_wrapper{
+        flex-direction: column;
+    }
+    .super_left{
+        width: 100%;
+    }
+    .super_right{
+        width: 100%;
+    }
+}

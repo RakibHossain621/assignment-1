@@ -32,3 +32,23 @@
 .dark-mode .resherch_title p{
     color: var(--white-color);
 }
+
+
+@media (max-width: 1024px){
+.resercch_wrapper{
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.single_reserch{
+    width: 48%;
+}
+}
+
+@media (max-width: 550px){
+    .resercch_wrapper{
+        flex-direction: column;
+    }
+   .single_reserch{
+    width: 100%;
+   }
+}

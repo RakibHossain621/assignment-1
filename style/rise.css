@@ -55,3 +55,22 @@
 .rise_right img:hover{
     transform: scale(1.02) translateZ(0.1px);
 }
+
+
+@media (max-width:550px) {
+    .rise_wrapper{
+        flex-direction: column-reverse
+    }
+    .rise_left{
+        width: 100%;
+    }
+    .rise_right{
+        width: 100%;
+    }
+    .rise_left{
+        font-size: 21px;
+    }
+    .rise_left p{
+        font-size: 17px;
+    }
+}

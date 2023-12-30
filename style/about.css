@@ -42,3 +42,19 @@
     color: var(--white-color);
     border-bottom: 2px solid var(--white-color);
 }
+
+@media (max-width: 1024px){
+    .about-wrapper{
+        flex-direction: column;
+    }
+    .about_left{
+        width: 100%;
+    }
+    .about_right{
+        margin-top: 2em;
+    }
+    .about_right p{
+    font-size: 1em;
+    line-height: 20px;
+    }
+}

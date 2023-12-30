@@ -54,3 +54,16 @@
     color: var(--white-color);
     border-bottom: 2px solid var(--white-color);
 }
+
+
+@media (max-width:550px){
+    .stranger_wrapper{
+        flex-direction: column;
+    }
+    .stranger_left{
+        width: 100%;
+    }
+    .stranger_right{
+        width: 100%;
+    }
+}

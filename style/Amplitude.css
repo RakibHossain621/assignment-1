@@ -55,3 +55,19 @@
 .ampulitude_right img:hover{
     transform: scale(1.02) translateZ(0.1px);
 }
+
+@media (max-width:550px){
+    .ampulitude_wrapper{
+        flex-direction: column;
+    }
+    .ampulitude_left{
+        width: 100%;
+    }
+    .ampulitude_right{
+        width: 100%;
+    }
+   .ampulitude_left span{
+    display: inline-block;
+    margin-bottom: 1em;
+   }
+}

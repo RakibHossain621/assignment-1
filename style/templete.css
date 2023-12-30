@@ -59,3 +59,13 @@
 .dark-mode .right_arrow i{
     color: var(--white-color);
 }
+@media (max-width:550px){
+    .testimonial_say{
+        font-size: 1.2em;
+       line-height: 31px;
+       max-width: 100%;
+    }
+    .templete_quteeson{
+        width: 100%;
+    }
+}

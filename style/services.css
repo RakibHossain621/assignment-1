@@ -59,3 +59,17 @@
 .dark-mode .services_single i{
     color: var(--white-color);
 }
+@media (max-width: 550px){
+    .services_wrapper{
+        flex-direction: column;
+    }
+    .serivces_left{
+        width: 100%;
+    }
+    .serivces_right{
+    margin-top: 3em;
+    }
+    .services_single span{
+    font-size: 20px;
+    }
+}

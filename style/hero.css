@@ -153,3 +153,17 @@
     transform: translateY(-24px);
   }
   
+  @media (max-width: 550px){
+    .hero_head_area h4{
+      font-size: 1em;
+    }
+    .hero_head_area h1{
+      font-size: 40px;
+      line-height: 54px;
+    }
+    .hero_promoted_left h1{
+      font-size: 17px;
+     line-height: 32px;
+     margin-top: 2em;
+    }
+  }

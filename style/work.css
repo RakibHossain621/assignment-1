@@ -111,3 +111,27 @@
   color: var(--white-color);
   border-bottom: 2px solid var(--white-color);
 }
+
+@media (max-width:550px) {
+  .work_wrapper{
+    flex-direction: column;
+  }
+  .work_right{
+    margin-top: 1em;
+  }
+  .medium_wrapper{
+    flex-direction: column;
+  }
+  .medium_left{
+    width: 100%;
+  }
+  .medium_right{
+    margin-top: 1em;
+    width: 100%;
+  }
+}
+@media (max-width:768px){
+  .work_wrapper{
+    flex-direction: column;
+  }
+}

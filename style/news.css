@@ -80,3 +80,16 @@
 .single_news a:hover{
     border-bottom: 1px solid var(--white-color);
 }
+
+
+@media (max-width:1024px){
+    .news-wrapper{
+        flex-wrap: wrap;
+    }
+    .single_news{
+        width: 45%;
+    }
+    .single_news news1{
+        margin-top: 0em;
+    }
+}
