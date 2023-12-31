@@ -167,3 +167,9 @@
 .circle_ex i{
     font-size: 0.6em;
 }
+
+@media (max-width:550px){
+    .contact_circle{
+        flex-direction: column-reverse;
+    }
+}

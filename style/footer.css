@@ -46,3 +46,19 @@
     max-width: 337px;
     font-family: var(--primary-font);
 }
+
+
+@media (max-width:550px){
+    .footer_list_wrapper{
+        flex-direction: column;
+    }
+   .footer_middle_list{
+    flex-direction: column;
+   }
+}
+
+@media (max-width:768px){
+    .footer_list_wrapper{
+        flex-wrap: wrap;
+    }
+}

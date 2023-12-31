@@ -50,11 +50,19 @@
     .about_left{
         width: 100%;
     }
+    
     .about_right{
         margin-top: 2em;
     }
+
     .about_right p{
     font-size: 1em;
     line-height: 20px;
     }
 }
+@media (max-width:990px){
+    .about_left img{
+        width: 100%;
+    }
+}
+
