@@ -10,12 +10,14 @@
     position: fixed;
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #141414;
+    background-color: var(--white-color);
     z-index: 100000;  
     animation: slideDown .3s ease-in-out;
     -webkit-animation: slideDown .3s ease-in-out;
 }
-
+.dark-mode .header.sticky{
+  background-color: #141414;
+}
 
 @keyframes slideDown {
   from {
@@ -32,10 +34,22 @@
   height: 34px;
   cursor: pointer;
 }
+
+.logo .dark-mode_img{
+  display: block;
+}
+.dark-mode .logo .light-mode_img{
+  display: none;
+}
+
+
 .nav_links a {
-  color: var(--white-color);
+  color: var(--black-color);
   font-size: 17px;
   line-height: 27.2px;
+}
+.dark-mode .nav_links a{
+  color: var(--white-color);
 }
 .nav_links a:hover {
   color: bisque;
