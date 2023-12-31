@@ -1,11 +1,32 @@
 .header {
-  position: relative;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
   font-family: var(--primary-font);
 }
+
+.header.sticky {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #141414;
+    z-index: 100000;  
+    animation: slideDown .3s ease-in-out;
+    -webkit-animation: slideDown .3s ease-in-out;
+}
+
+
+@keyframes slideDown {
+  from {
+      top: -10%;
+}
+  to {
+      top: 0;
+  }
+}
+
+
 .logo {
   width: 105px;
   height: 34px;

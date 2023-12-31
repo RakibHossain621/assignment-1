@@ -43,6 +43,31 @@
     border-bottom: 2px solid var(--white-color);
 }
 
+
+.text_shadow_wrapper {
+    position: relative;
+}
+
+.text-outline-2 {
+    position: absolute;
+    top: -0.72em;
+    left: 0;
+    color: var(--black-color);
+    -webkit-text-stroke: 1px var(--black-color);
+    opacity: .1;
+    pointer-events: none;
+}
+
+.text-outline-1 {
+    position: absolute;
+    top: -0.36em;
+    left: 0;
+    color: var(--black-color);
+    -webkit-text-stroke: 1px var(--black-color);
+    opacity: .2;
+    pointer-events: none;
+}
+
 @media (max-width: 1024px){
     .about-wrapper{
         flex-direction: column;

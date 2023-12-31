@@ -1,28 +1,41 @@
 .hero-banner{
-    background-image: url('https://resonance.bestlooker.pro/images/full-width-images/section-bg-13.jpg');
+    background-image: url('https://resonance.bestlooker.pro/images/demo-bold/section-bg-1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
 }
 
+
+.dark-mode .hero-banner{
+  background-image: url('https://resonance.bestlooker.pro/images/full-width-images/section-bg-13.jpg');
+}
+
 .hero_head_area h4{
-    color: var(--white-color);
+    color: var(--black-color);
     font-size: 18px;
     font-weight: 500;
     line-height: 120px;
     margin-top: 2em;
     font-family: var(--secondary-font);
-
 }
+
+.dark-mode .hero_head_area h4{
+  color: var(--white-color);
+}
+
 .hero_head_area h1{
     font-size: 100px;
-    color: var(--white-color);
+    color: var(--black-color);
     font-weight: 500;
     line-height: 120px;
     font-family: var(--secondary-font);
-
 }
+
+.dark-mode .hero_head_area h1{
+  color: var(--white-color);
+}
+
 .hero-banner .container{
     display: flex;
     justify-content: center;

@@ -4,6 +4,17 @@ const sidebar = document.querySelector(".sidebar");
 const overlay = document.querySelector(".overlay");
 const close_button = document.querySelector(".close_button");
 const modeIcon = document.getElementById("modeIcon");
+const header = document.querySelector(".header");
+
+const handleScroll = () => {
+  if (window.scrollY > 70) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+};
+
+window.addEventListener("scroll", handleScroll);
 
 if (localStorage.getItem("darkMode") === "enabled") {
   document.body.classList.add("dark-mode");
@@ -17,13 +28,11 @@ function toggleMode() {
   if (element.classList.contains("dark-mode")) {
     element.classList.remove("dark-mode");
     localStorage.setItem("darkMode", "disabled");
-    // Change to sun icon for light mode
-    modeIcon.innerHTML = '<i class="fa-regular fa-sun"></i>';
+    modeIcon.innerHTML = '<i  class="fa-regular fa-sun"></i>';
   } else {
     element.classList.add("dark-mode");
     localStorage.setItem("darkMode", "enabled");
-    // Change to moon icon for dark mode
-    modeIcon.innerHTML = '<i class="fa-solid fa-moon"></i>';
+    modeIcon.innerHTML = '<i style="color:black" class="fa-solid fa-moon"></i>';
   }
 }
 
@@ -33,13 +42,12 @@ window.onload = function () {
 
   if (darkMode === "enabled") {
     document.body.classList.add("dark-mode");
-    modeIcon.innerHTML = '<i class="fa-regular fa-sun"></i>';
+    modeIcon.innerHTML = '<i  style="color:black" class="fa-regular fa-sun"></i>';
   } else {
     document.body.classList.remove("dark-mode");
-    modeIcon.innerHTML = '<i class="fa-solid fa-moon"></i>';
+    modeIcon.innerHTML = '<i  class="fa-solid fa-moon"></i>';
   }
 };
-
 
 function disableScroll() {
   document.body.style.overflow = "hidden";

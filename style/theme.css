@@ -18,7 +18,11 @@
   border-right-width: 0;
   z-index: 1000;
   cursor: pointer;
-  background-color: var(--primary-color);
+  background-color: var(--black-color);
+}
+
+.dark-mode .gear-tab {
+  background-color: var(--white-color);
 }
 
 .gear-tab i {

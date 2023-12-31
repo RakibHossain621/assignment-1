@@ -25,6 +25,15 @@
     object-fit: cover;
 }
 
+.templete_quteeson .dark-mode_img{
+    display: none;
+}
+
+.dark-mode .templete_quteeson .dark-mode_img{
+    display: block;
+}
+
+
 .templete_circle_title h1{
     font-size: 1em;
     font-weight: 600;
