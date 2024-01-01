@@ -7,27 +7,36 @@
 }
 
 .header.sticky {
-    position: fixed;
-    width: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: var(--white-color);
-    z-index: 100000;  
-    animation: slideDown .3s ease-in-out;
-    -webkit-animation: slideDown .3s ease-in-out;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: var(--white-color);
+  z-index: 100000;
+  animation: slideDown 0.3s ease-in-out;
+  -webkit-animation: slideDown 0.3s ease-in-out;
 }
-.dark-mode .header.sticky{
+.dark-mode .header.sticky {
   background-color: #141414;
 }
 
 @keyframes slideDown {
   from {
-      top: -10%;
-}
+    top: -10%;
+  }
   to {
-      top: 0;
+    top: 0;
   }
 }
 
+.dark-mode .white_logo {
+  display: block;
+}
+.dark_logo {
+  display: block;
+}
+.white_logo {
+  display: none;
+}
 
 .logo {
   width: 105px;
@@ -35,20 +44,12 @@
   cursor: pointer;
 }
 
-.logo .dark-mode_img{
-  display: block;
-}
-.dark-mode .logo .light-mode_img{
-  display: none;
-}
-
-
 .nav_links a {
   color: var(--black-color);
   font-size: 17px;
   line-height: 27.2px;
 }
-.dark-mode .nav_links a{
+.dark-mode .nav_links a {
   color: var(--white-color);
 }
 .nav_links a:hover {
@@ -71,7 +72,7 @@ a.active {
   font-family: var(--primary-font);
   cursor: pointer;
 }
-.button i{
+.button i {
   font-size: 16px;
   font-weight: 16px;
   color: var(--white-color);

@@ -6,6 +6,7 @@ const close_button = document.querySelector(".close_button");
 const modeIcon = document.getElementById("modeIcon");
 const header = document.querySelector(".header");
 
+
 const handleScroll = () => {
   if (window.scrollY > 70) {
     header.classList.add("sticky");
@@ -70,3 +71,4 @@ menuButton.addEventListener("click", () => {
 
 close_button.addEventListener("click", closeMenu);
 overlay.addEventListener("click", closeMenu);
+
