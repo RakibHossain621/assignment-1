@@ -67,7 +67,23 @@
     opacity: .2;
     pointer-events: none;
 }
+.light_contant{
+        display: inline-block;
+        width: 60px;
+        height: 35px;
+        background-color: var(--black-color);
+        color: var(--white-color);
+        border-radius: 10px;
+        font-size: 16px;
+        text-align: center;
+        transform: rotate(-30deg);
+        font-family: var(--secondary-font);
+}
 
+.dark-mode .light_contant{
+    background-color:white;
+    color: black;
+}
 @media (max-width: 1024px){
     .about-wrapper{
         flex-direction: column;
