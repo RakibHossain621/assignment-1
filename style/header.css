@@ -77,3 +77,129 @@ a.active {
   font-weight: 16px;
   color: var(--white-color);
 }
+
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  z-index: 10000000;
+  background-color: rgb(17 24 39);
+}
+
+.overlay.active {
+  opacity: 0.2;
+  display: block;
+  visibility: visible;
+}
+
+.sidebar .app_button {
+  padding: 11px 8px !important;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  background: var(--black-color);
+  color: var(--white-color);
+  width: 80%;
+  max-width: 250px;
+  transition: right 0.5s ease-in-out;
+  padding: 1.5em;
+  z-index: 100000000;
+  height: 100%;
+  overflow-y: auto;
+  height: 100vh;
+}
+.sidebar_title {
+  font-size: 1.7em;
+  margin-bottom: 2em;
+}
+.close_button {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  background: var(--secondary-color);
+  border: none;
+  outline: none;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  color: var(--white-color);
+}
+
+.mobile_navigation .nav_links {
+  color: var(--white-color);
+  font-size: 1.2em;
+  font-weight: 700;
+  transition: var(--primary-transition);
+}
+.mobile_navigation .nav_links.active {
+  color: var(--black-color-secondary);
+}
+
+.mobile_navigation .nav_links:hover {
+  color: var(--black-color-secondary);
+}
+
+.sidebar.active {
+  right: 0px;
+}
+
+.button-group .first_element {
+  background: var(--secondary-color);
+  color: var(--white-color);
+}
+
+.hamburger_menu {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hamburger_menu svg{
+  fill: var(--black-color);
+}
+
+.dark-mode .hamburger_menu svg{
+  fill: var(--white-color);
+}
+
+.hamburger_menu{
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .nav_btn .app_button_secondary,
+  .app_button {
+    display: none;
+  }
+
+  .hamburger_menu{
+    display: block;
+  }
+
+  .nav_link{
+    display: none;
+  }
+
+  .btn-epic{
+    display: none !important;
+  }
+
+  .button-group .btn-epic{
+    display: block !important;
+  }
+}

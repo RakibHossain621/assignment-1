@@ -1,8 +1,10 @@
 const gearButton = document.querySelector(".gear-tab");
+// Menu Start
 const menuButton = document.querySelector(".hamburger_menu");
 const sidebar = document.querySelector(".sidebar");
 const overlay = document.querySelector(".overlay");
 const close_button = document.querySelector(".close_button");
+// Menu End
 const modeIcon = document.getElementById("modeIcon");
 const header = document.querySelector(".header");
 
@@ -50,6 +52,7 @@ window.onload = function () {
   }
 };
 
+// Menu 
 function disableScroll() {
   document.body.style.overflow = "hidden";
 }

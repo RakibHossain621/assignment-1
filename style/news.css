@@ -41,7 +41,7 @@
 .dark-mode .news-heading p {
   color: var(--white-color);
 }
-.news-heading span {
+.news-heading .all_news {
   font-size: 18px;
   font-weight: 500;
   line-height: 18px;
@@ -51,7 +51,7 @@
   cursor: pointer;
   font-family: var(--primary-font);
 }
-.dark-mode .news-heading span {
+.dark-mode .news-heading .all_news {
   color: var(--white-color);
   border-bottom: 2px solid var(--white-color);
 }
